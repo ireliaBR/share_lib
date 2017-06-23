@@ -11,10 +11,15 @@
 	$ ./app
 	$ ln -s libmy.so.1.0.1 libmy.so
 ## Description
-​	realname -> libmy.so.1.0.1
-​	so name  -> libmy.so.1
-​	link name-> libmy.so
 
-​	共享库命名
+- realname -> libmy.so.1.0.1
+
+- so name  -> libmy.so.1
+
+- link name-> libmy.so
+
+  ​
+
+共享库命名
 
 ![共享库命名](./共享库命名.png)
