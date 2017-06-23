@@ -1,6 +1,6 @@
-#share_lib
+# share_lib
 生成共享库步骤
-#Example
+## Example
 	$ gcc -fPIC -c common.c //生成.o文件
 	$ gcc -shared -Wl,-soname,libmy.so.1 -o libmy.so.1.0.1 common.o //生成libmy.so.1.0.1共享库
 	$ gcc main.c libmy.so.1.0.1 -o app //生成程序app
@@ -10,7 +10,7 @@
 	$ ldd app
 	$ ./app
 	$ ln -s libmy.so.1.0.1 libmy.so
-#Description
+## Description
 ​	realname -> libmy.so.1.0.1
 ​	so name  -> libmy.so.1
 ​	link name-> libmy.so

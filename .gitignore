@@ -1,3 +1,3 @@
-./app
-./libmy.so*
-./*.o
+**/app
+**/libmy.so*
+**/*.o
